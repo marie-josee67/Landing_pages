@@ -79,3 +79,36 @@ blockquote{
     align-items: center;
     line-height: 70px;
 }
+
+.p_client{
+    font-size: 40px;
+}
+
+/* ********************************** partie footer **************************** */
+
+.footer{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    text-decoration:none;
+    background-color: #8c506b;
+    height:400px;
+}
+
+.liens{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+.copy {
+    font-size: 20px;
+    text-align: center;
+}
+
+/*  impossible d'enlever la puce aux liens */
+li::marker{
+    text-decoration:none;
+}
