@@ -34,7 +34,7 @@ button{
 
 }
 
-/*  ******************************** partie icons ********************************* */
+/*  ******************************** partie icons ****************************** */
 
 .icons{
     display: flex;
@@ -43,6 +43,7 @@ button{
     align-items: center;
     justify-content:space-around;
     font-size: 30px;
+    line-height: 70px; /* espace entre les lignes */
     height:400px;
 }
 
@@ -57,4 +58,24 @@ button{
     align-items: center;
     justify-content: space-around;
     font-size: 40px;
+}
+
+/* ******************************** partie client ***************************** */
+
+.client{
+    display: flex;
+    flex-direction: row;
+    background-color: #670c35;
+    align-items: center;
+    justify-content:space-around;
+    height:400px;
+}
+
+blockquote{
+    display: flex;
+    flex-direction:column;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    line-height: 70px;
 }
