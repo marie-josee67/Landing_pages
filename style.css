@@ -117,3 +117,8 @@ blockquote{
 li::marker{
     text-decoration:none;
 }*/
+
+/* enlève les puces */
+.footer ul{
+    list-style: none;
+}
