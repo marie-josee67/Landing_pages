@@ -107,8 +107,13 @@ blockquote{
     font-size: 20px;
     text-align: center;
 }
+/*  impossible d'enlever la puce aux liens 
 
-/*  impossible d'enlever la puce aux liens */
+.footer ul li {
+    text-decoration: none;
+}
+
+
 li::marker{
     text-decoration:none;
-}
+}*/
